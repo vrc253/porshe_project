@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Krešimir Vrdoljak">
+    <title>Projekt K.Vrdoljak</title>
+    <link rel="icon" type="image/x-icon" href="slike/mazda-48.ico">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero-image" role="banner"></div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="">Pocetna</a></li>
+                    <li><a href="">Novosti</a></li>
+                    <li><a href="">Kontakt</a></li>
+                    <li><a href="">O nama</a></li>
+                    <li><a href="">Galerija</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+		<h1>PORSHE 911 GT3 RS</h1>
+		<figure>
+			<img src="images/porschegt3rs-main.jpg" alt="porshe_gt3_rs" title="Porshe 911 GT3 RS">
+			<figcaption>
+                <div>
+                    <div class="power">
+                        <div >386kW/525 PS</div>
+                        <div style="font-size: 15px;">Power(kW)/Power(PS)</div>
+                    </div>
+                    <div class="acceleration">
+                        <div >3,2 s</div>
+                        <div style="font-size: 15px;" >Acceleration 0-100</div>
+                    </div>
+                    <div class="topspeed">
+                        <div >296km/h</div>
+                        <div style="font-size: 15px;" >Top speed</div>
+                    </div>
+                </div>
+            </figcaption>    
+		</figure>
+
+		<h2 id="opis">Discover the 911 GT3 RS in detail</h2>
+		<p>A 4.0-litre high revving naturally aspirated 525 PS (386 kW) engine.<br>
+            Fully automatic adjustment of the front diffuser and rear wing.<br>
+            Drag Reduction System (DRS) - rear wing.<br>
+            Aero wishbone on the front axle for up to 40 kg more downforce.
+            Consistent lightweight construction with numerous components made of carbon fibre reinforced plastic (CFRP).
+        </p>
+		
+	</main>
+
+    <footer>
+        <p style="font-size: 20px;">Copyright &copy; 2023 Kresimir Vrdoljak.
+            <a href="https://github.com/vrc253/projekt/tree/main">
+                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" height="20px"
+                    alt="Github">
+            </a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
+
