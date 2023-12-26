@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Krešimir Vrdoljak">
+    <title>Projekt K.Vrdoljak</title>
+    <link rel="icon" type="image/x-icon" href="slike/mazda-48.ico">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero-image" role="banner"></div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Pocetna</a></li>
+                    <li><a href="novosti.html">Novosti</a></li>
+                    <li><a href="">Kontakt</a></li>
+                    <li><a href="">O nama</a></li>
+                    <li><a href="">Galerija</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        
+        <div class="news">
+            <h1>NOVOSTI</h1>
+            <a href="news1.html"><img src="images/news1.jpg" alt="e-SKYACTIV R-EV rotor" title="e-SKYACTIV R-EV rotor"></a>
+            <h2> Na „paprenom“ predstavljanju otkriven novi Porsche Cayenne </h2>
+            <p>It won’t hurt your ears and doesn’t use a drop of fuel, but it’s projected to crush the quarter-mile in the low-8-second range at more than 170 mph.<br>
+               For the first time ever, Ford Performance introduces a one-off Mustang Cobra Jet factory drag racer with all-electric propulsion.<a href="news1.html">Saznajte više...</a></p>
+            <p><time datetime="2023-08-30">30 October 2023</time></p><br>
+            <hr>
+            <a href="news2.html"><img src="images/news2.jpg" alt="" title=""></a>
+            <h2> Spektakularna proslava 75 godina Porsche sportskih automobila </h2>
+            <p>Investors piled into technology giants such as Amazon, Alphabet and Microsoft on Friday, driving the tech-heavy Nasdaq to one of its biggest one-day jumps this year. <a href="news2.html">Saznajte više...</a></p>
+            <p><time datetime="2021-04-23">23 April 2021</time></p><br>
+            <hr>
+            <a href="news3.html"><img src="images/news3.jpg" alt="" title=""></a>
+            <h2> 75 godina Porsche sportskih automobila: Ove godine Porsche slavi svoju priču o uspjehu </h2>
+            <p>Race fans and Mustang enthusiasts will get their first chance to see the NASCAR Next Gen Mustang on August 2 at its public unveiling.<br>
+               Until then, Ford Performance shares this taste of the car’s first laps around historic Martinsville Speedway, accompanied by the thunderous soundtrack of a powerful Roush Yates Ford V8 racing engine. <a href="news3.html">Saznajte više...</a></p>
+            <p><time datetime="2020-08-02">02 August 2020</time></p>
+            <hr>
+            <a href="news4.html"><img src="images/news4.jpg" alt="" title=""></a>
+            <h2> Porsche centar Zagreb već treću godinu za redom ruši stereotipe zajedno sa ženama na trkaćkoj stazi </h2>
+            <p>Race fans and Mustang enthusiasts will get their first chance to see the NASCAR Next Gen Mustang on August 2 at its public unveiling.<br>
+               Until then, Ford Performance shares this taste of the car’s first laps around historic Martinsville Speedway, accompanied by the thunderous soundtrack of a powerful Roush Yates Ford V8 racing engine. <a href="news3.html">Saznajte više...</a></p>
+            <p><time datetime="2020-08-02">02 August 2020</time></p>
+            <hr>
+            <a href="news5.html"><img src="slike/rotary.jpg" alt="" title=""></a>
+            <h2>Race car debuts</h2>
+            <p>Race fans and Mustang enthusiasts will get their first chance to see the NASCAR Next Gen Mustang on August 2 at its public unveiling.<br>
+               Until then, Ford Performance shares this taste of the car’s first laps around historic Martinsville Speedway, accompanied by the thunderous soundtrack of a powerful Roush Yates Ford V8 racing engine. <a href="news3.html">Saznajte više...</a></p>
+            <p><time datetime="2020-08-02">02 August 2020</time></p>
+            <hr>
+        </div><br>
+		
+	</main>
+
+    <footer>
+        <p style="font-size: 20px;">2023 Kresimir Vrdoljak.
+            <a href="https://github.com/vrc253/porshe_project/tree/main">
+                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" height="20px"
+                    alt="Github">
+            </a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
+
