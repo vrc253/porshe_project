@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Krešimir Vrdoljak">
+    <title>Projekt K.Vrdoljak</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/porsche-removebg-preview.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    
+
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero-image" role="banner"></div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="novosti.html">Novosti</a></li>
+                    <li><a href="form.html">Kontakt</a></li>
+                    <li><a href="">O nama</a></li>
+                    <li><a href="">Galerija</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <h1 class="forma_naslov">Kontakt forma</h1><br>
+
+    <div class="google-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15744.293058439174!2d15.989219502768357!3d45.76670359125274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47667e57354f67a5%3A0xa55cc1281b76515f!2sPorsche%20Croatia%20d.o.o.!5e0!3m2!1sen!2shr!4v1703953755332!5m2!1sen!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    <form method="post" name="forma" id="forma">
+        <div class="form-group">
+            <label for="firstname">Ime:</label>
+            <input type="text" class="form-control" id="firstname" name="firstname" required>
+        </div>
+
+        <div class="form-group">
+            <label for="lastname">Prezime:</label>
+            <input type="text" class="form-control" id="lastname" name="lastname" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value=""></option>
+                <option value="HR">Hrvatska</option>
+                <option value="DE">Njemacka</option>
+            </select>
+        </div>
+        
+        <div class="form-group" >
+            <label for="note">Poruka:</label>
+            <textarea rows="3" cols="30" name="note" id="note" placeholder="Posaljite poruku..."></textarea>
+        </div>
+        <br>
+        <div class="button">
+            <input type="submit" value="Pošalji"><br>
+            <input type="reset" value="Poništi">
+        </div>
+        <br>
+        
+    </form><br>
+
+    <footer>
+        <p style="font-size: 20px;">2023 Kresimir Vrdoljak.
+            <a href="https://github.com/vrc253/porshe_project/tree/main">
+                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" height="20px"
+                    alt="Github">
+            </a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
+
