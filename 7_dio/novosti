@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Krešimir Vrdoljak">
+    <title>Projekt K.Vrdoljak</title>
+    <link rel="icon" type="image/x-icon" href="images/porsche-removebg-preview.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero-image" role="banner"></div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="novosti.html">Novosti</a></li>
+                    <li><a href="form.html">Kontakt</a></li>
+                    <li><a href="">O nama</a></li>
+                    <li><a href="">Galerija</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        
+        <div class="news">
+            <h1>NOVOSTI</h1>
+            <a href="news1.html"><img src="news/news1.jpg" alt="" title=""></a>
+            <h2> Na „paprenom“ predstavljanju otkriven novi Porsche Cayenne </h2>
+            <p>Sportski automobil i terensko vozilo u jednom. Ovakvom opisu odgovara samo jedan, jedini i jedinstveni Porsche Cayenne.<br>
+               Snažniji, udobniji, s povećanom sigurnošću, električnim dometom do 90km u svojoj E-hybrid verziji, uz potpuno digitalni kokpit usmjeren na vozača i digitalni zaslon za suvozača, novi se Cayenne pozicionirao kao dream car svakog vozača koji je svestran, pustolovan, koji cijeni dizajn i detalje. <a href="news1.html">Saznajte više...</a></p>
+            <p><time datetime="2023-04-23">23 Travanj 2023</time></p><br>
+            <hr>
+            <a href="news2.html"><img src="news/gt3-rs-news.jpg" alt="" title=""></a>
+            <h2> Novi 911 GT3 RS </h2>
+            <p>Savršentsvo nije početak, nego cilj.
+            <br> Otkrijte 911 GT3 RS u detaljima. <a href="news2.html">Saznajte više...</a></p>
+            <p><time datetime="2023-08-30">30 Kolovoz 2023</time></p><br>
+            <hr>
+            <a href="news3.html"><img src="news/news3.jpg" alt="" title=""></a>
+            <h2> 75 godina Porsche sportskih automobila: Ove godine Porsche slavi svoju priču o uspjehu </h2>
+            <p>Već tri četvrti stoljeća Porsche je sinonim za iznimne sportske automobile.<br>
+                Na dan 8. lipnja 1948., Ferry Porsche ostvario je svoj san o stvaranju sportskog automobila. <a href="news3.html">Saznajte više...</a></p>
+            <p><time datetime="2023-08-12">12 Kolovoz 2023</time></p><br>
+            <hr>
+            <a href="news4.html"><img src="news/news4.jpg" alt="" title=""></a>
+            <h2> Porsche centar Zagreb već treću godinu za redom ruši stereotipe zajedno sa ženama na trkaćkoj stazi </h2>
+            <p>Porsche Centar Zagreb je, sada već tradicionalno u tjednu Dana žena, organizirao vozačko-hedonistički program Porsche Experience posvećen isključivo ženama.<br>
+                Uz Hrvatsku, sudjelovale su i gošće iz Bosne i Hercegovine i Slovenije <a href="news3.html">Saznajte više...</a></p>
+            <p><time datetime="2023-11-15">02 Studeni 2023</time></p><br>
+            <hr>
+            <a href="news5.html"><img src="news/news5.jpg" alt="" title=""></a>
+            <h2>GT4 e-Performance</h2>
+            <p>Potpuno električni sportski automobil nudi novi način uzbuđenja za obožavatelje diljem svijeta,<br>
+                S promjenjivom snagom i pogonom na sva četiri kotača, GT4 e-Performance dizajniran je za široku paletu trkaćih formata &hyphen; napravljen da nadahne. <a href="news3.html">Saznajte više...</a></p>
+            <p><time datetime="2023-07-02">02 Srpanj 2023</time></p><br>
+            <hr>
+        </div><br>
+		
+	</main>
+
+    <footer>
+        <p style="font-size: 20px;">2023 Kresimir Vrdoljak.
+            <a href="https://github.com/vrc253/porshe_project/tree/main">
+                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" height="20px"
+                    alt="Github">
+            </a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
+
