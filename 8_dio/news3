@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Krešimir Vrdoljak">
+    <title>Projekt K.Vrdoljak</title>
+    <link rel="icon" type="image/x-icon" href="images/porsche-removebg-preview.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    
+        .hero-image-news3 {
+            background-image: url(news/news3large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            height: 300px;
+        }
+    
+        h1{
+            font-family: 'Bebas Neue', sans-serif;
+	        font-size: 45px;
+        }
+
+        h2{
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        p{
+            font-family: ' Courier';
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #nazad{
+            margin-bottom: 2%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero-image-news3" role="banner"></div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="novosti.html">Novosti</a></li>
+                    <li><a href="form.html">Kontakt</a></li>
+                    <li><a href="">O nama</a></li>
+                    <li><a href="galery.html">Galerija</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>NOVOSTI</h1>
+        <div id="novosti1">
+			<figure>
+				<img src="news/Ferry Porsche.jpg" alt="Ferry Porsche" title="Ferry Porsche">
+				<figcaption>Ferry Porsche.<figcaption>
+			</figure>
+			<figure>
+				<img src="news/Porsche 356 No1_Roadster.jpg" alt="Porsche 356 No1_Roadster" title="Porsche 356 No1_Roadster">
+				<figcaption>Porsche 356 No1_Roadster.<figcaption>
+			</figure>
+            <figure>
+				<img src="news/taycan75.jpg" alt="Taycan" title="Taycan">
+				<figcaption>Taycan.<figcaption>
+			</figure>
+			<figure>
+				<img src="news/Porsche_tim.jpg" alt="Porsche tim" title="Porsche tim">
+				<figcaption>Porsche 356 No1_Roadster.<figcaption>
+			</figure>
+        </div>
+        <hr>
+        <div>
+            <h2> 75 godina Porsche sportskih automobila: Ove godine Porsche slavi svoju priču o uspjehu </h2>
+            <b><p style="font-family: Courier;">Ferry Porsche i sportski automobil njegovih snova </p></b>
+            <p>Neki ljudi nikada nisu prestali vjerovati u svoje snove – Ferry Porsche bio je jedan od njih.<br>
+                Sanjao je o modernom sportskom automobilu dok su drugi nakon Drugog svjetskog rata isključivo razmišljali o praktičnim vozilima.<br>
+                Budući da automobil iz njegovih snova još uvijek nije postojao, odlučio ga je razviti zajedno sa svojim timom.<br> 
+                Prvi Porsche 356 No.1 Roadster dobio je dozvolu za promet 8.lipnja 1948. čime je postao prvi sportski automobil koji je nosio naziv Porsche. </p>
+            <br>
+            <b><p style="font-family: Courier;">Dr. Wolfgang Porsche i nasljeđe </p></b>
+            <p>Zaposlenici tvrtke s dobrim razlogom sebe nazivaju "članovima obitelji Porsche" i tako se snažno identificiraju sa svojim poslodavcem.<br>
+                Kao dioničar, dr. Wolfgang Porsche svjestan je posebne odgovornosti koju snosi za tvrtku: „Za mene je to pitanje stvaranja sigurnosti – u dobrim i lošim vremenima. <br>
+                Četvrti i najmlađi sin Ferryja Porschea rođen je u Stuttgartu 1943. Član je nadzornog odbora Porsche AG od 1981. i predsjednik nadzornog odbora od 2007.<br> Dr. Wolfgang Porsche uvijek je bio predan brendu i, ne samo zbog toga, on je važan uzor za Grupu.<br>
+                Njegova glavna misija je nastaviti djelo svog oca Ferryja i djeda Ferdinanda onako kako bi oni smatrali prikladnim i kako bi održao njihovo nasljeđe.</p>
+            <br>
+            <b><p style="font-family: Courier;">Sportski automobil koji spaja nasljeđe i moderni luksuz  </p></b>
+            <p>Danas, osim što su sinonim za sportski automobil, Porsche modeli i simboli modernog luksuza.<br>
+                Upravo su zbog toga postali za mnoge postali životnim snom te je posjedovanje Porschea često oznaka vlastitog uspjeha i samoostvarenja. <br>
+                Za Olivera Blumea, CEO brenda, Porsche nije samo utjelovljenje moderne interpretacije luksuznih vozila, već i jasna predanost prema održivosti.</p>
+            <br>
+            <b><p style="font-family: Courier;">Sportski automobil koji spaja nasljeđe i moderni luksuz  </p></b>
+            <p>U 2023. Porsche slavi diljem cijelog svijeta – u Šangaju slave putem izložbe „Dream in Color“ na vodećom umjetničkom sajmu PHOTOFAIRS Shanghai,<br> u Monaku u muzeju automobila princa Monaka izložbom „75 godina Porsche sportskih automobila“, kao i ostalim svjetskim metropolama.<br>
+                Jedan od upečatljivih događaja bit će velika obljetnica utrke „24h at Le Mans“ koja također ove godine slavi svojih 100 godina postojanja.<br>
+                Ove dvije velike godišnjice spojit će se i od 10. do 11. lipnja 2023. gledateljima omogućiti pravi spektakl. 
+                <br>Hrvatska će također biti dio ove jedinstvene priče. Prvi dio proslave održan je u Samoboru ugošćivanjem Porsche Heritage Trucka. <br>
+                Pop-up muzeja koji je stigao iz muzeja Porsche u Stuttgartu, i koji ističe velike trenutke brenda i donosi potpuno novi pogled u Porscheovu legendarnu priču.<br>
+                 Osim toga, na rođendan brenda 8. lipnja 2023. ispred Hrvatskog Nacionalnog Kazališta u Zagrebu, održat će se posebna izložba kultnih 911 modela<br>
+                  koji ove godine slave 60 godina postojanja, kao i dodatne aktivnosti koje će privući mnoštvo posjetitelja.
+            </p>
+            <p id="nazad"><a href="novosti.html">POVRATAK</a></p>
+            <p style="margin-bottom: 6%;"><a href="https://dealer.porsche.com/hr/zagreb/hr-HR/Novosti-i-dogadanja/Aktualne-novosti/75-godina-porsche-sportskih-automobila-ove-godine">Izvor</a></p>
+
+        </div>
+        
+
+
+
+		
+	</main>
+
+    <footer>
+        <p style="font-size: 20px;">2023 Kresimir Vrdoljak.
+            <a href="https://github.com/vrc253/porshe_project/tree/main">
+                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" height="20px"
+                    alt="Github">
+            </a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
+
