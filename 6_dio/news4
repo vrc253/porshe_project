@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Krešimir Vrdoljak">
+    <title>Projekt K.Vrdoljak</title>
+    <link rel="icon" type="image/x-icon" href="images/porsche-removebg-preview.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+   
+        .hero-image-news4 {
+            background-image: url(news/news4large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            height: 300px;
+        }
+
+        h1{
+            font-family: 'Bebas Neue', sans-serif;
+	        font-size: 45px;
+        }
+
+        h2{
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        p{
+            font-family: ' Courier';
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #nazad{
+            margin-bottom: 2%;
+        }
+   
+   </style>
+</head>
+<body>
+    <header>
+        <div class="hero-image-news4" role="banner"></div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="novosti.html">Novosti</a></li>
+                    <li><a href="">Kontakt</a></li>
+                    <li><a href="">O nama</a></li>
+                    <li><a href="">Galerija</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>NOVOSTI</h1>
+        <div id="novosti1">
+			<figure>
+				<img src="news/dan_zena.jpg" alt="Dan žena 2023." title="Dan žena 2023.">
+				<figcaption>Dan žena 2023.<figcaption>
+			</figure>
+			<figure>
+				<img src="news/dan_zena2.jpg" alt="Slalom utrka." title="Slalom utrka.">
+				<figcaption>Slalom utrka.<figcaption>
+			</figure>
+            <figure>
+				<img src="news/bumpy_ride.jpg" alt="Dan žena 2023." title="Dan žena 2023.">
+				<figcaption>Dan žena 2023.<figcaption>
+			</figure>
+			<figure>
+				<img src="news/parked_porshe.jpg" alt="Porshe." title="Porshe.">
+				<figcaption>Porshe.<figcaption>
+			</figure>
+        </div>
+        <hr>
+        <div>
+            <h2>Porsche centar Zagreb već treću godinu za redom ruši stereotipe zajedno sa ženama na trkaćkoj stazi.</h2>
+            <p> Porsche Centar Zagreb je, sada već tradicionalno u tjednu Dana žena, organizirao vozačko-hedonistički program Porsche Experience posvećen isključivo ženama.<br>
+                 Uz Hrvatsku, sudjelovale su i gošće iz Bosne i Hercegovine i Slovenije, vođene ženama koje su se ujedinile i napravile jedinstvenu vozačku priču. </p>
+            <p>Ovaj događaj osmišljen je pod okriljem zajednice SHIFT by Porsche koja djeluje na području Porsche Srednje i Istočne Europe i okuplja 28 zemalja regije.<br>
+                 Ova inicijativa vođena je strašću i snovima hrabrih i odvažnih žena koje se ne boje biti što god požele – supruge, majke, kćeri, menadžerice, doktorice – ili sve navedeno. </p>
+            <p>SHIFT by Porsche je također zajednica za one koji znaju kako Porsche automobili nisu trofeji ili igračke već predstavljaju stil života, snagu i energiju koja pokreće.<br>
+                 Program Porsche Experience samo je mali podsjetnik koliko su žene hrabre i posebne, što su i dokazale i na trkaćoj stazi Grobnik gdje su sve sudionice srušile apsolutno sve stereotipe o ženama za volanom.</p>
+            <p>Sve sudionice imale su priliku isprobati cijelu paletu Porsche vozila u četiri različite sekcije; u Slalomu i Launch controlu čiji su glavni akteri bili 718 Cayman T i 911 Turbo S,<br>
+                 na poligonu Off-Road kojeg je predvodio model Macan te na trkaćoj stazi u dvije različite varijante; Luxury On Track gdje su zvijezde bili Panamera 4S E-Hybrid,<br>
+                  Panamera Turbo S E-Hybrid Sport Turismo, Macan GTS, Taycan Turbo S i Cayenne E-Hybrid Coupé, dok su 911 GT3 ,<br>
+                   718 Cayman GT4 RS, 911 Turbo Coupé, 911 Targa 4S, 911 Carrera 4 GTS vladali sekcijom Sportcars On Track. </p>
+            <p>Porsche Centar Zagreb dokazao je kako je Porsche Experience zaista užitak za sva osjetila i u drugim dijelu dana kada se vozački event pretočio<br>
+                 u potpuni gastronomski hedonizam u prostoru restorana Bevanda gdje su svi prisutni imali priliku razmijeniti iskustva s trkaće staze<br>
+                  i nastaviti upoznavanja sa svim zanimljivim ženama koje su bile dio ove snažne vozačke priče.</p>
+            <p id="nazad"><a href="novosti.html">POVRATAK</a></p>
+            <p style="margin-bottom: 6%;"><a href="https://dealer.porsche.com/hr/zagreb/hr-HR/Novosti-i-dogadanja/Aktualne-novosti/Ladies-day">Izvor</a></p>
+        </div>
+        
+
+
+
+		
+	</main>
+
+    <footer>
+        <p style="font-size: 20px;">2023 Kresimir Vrdoljak.
+            <a href="https://github.com/vrc253/porshe_project/tree/main">
+                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" height="20px"
+                    alt="Github">
+            </a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
+
