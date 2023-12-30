@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Krešimir Vrdoljak">
+    <title>Projekt K.Vrdoljak</title>
+    <link rel="icon" type="image/x-icon" href="images/porsche-removebg-preview.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        
+        .hero-image-news1 {
+            background-image: url(news/news1large.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            height: 300px;
+        }
+
+        h1{
+            font-family: 'Bebas Neue', sans-serif;
+	        font-size: 45px;
+        }
+
+        h2{
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        p{
+            font-family: ' Courier';
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #nazad{
+            margin-bottom: 2%;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero-image-news1" role="banner"></div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="novosti.html">Novosti</a></li>
+                    <li><a href="form.html">Kontakt</a></li>
+                    <li><a href="">O nama</a></li>
+                    <li><a href="galery.html">Galerija</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>NOVOSTI</h1>
+        <div id="novosti1">
+			<figure>
+				<img src="news/cayenne_trubac.jpg" alt="Porshe Cayenne" title="Porshe Cayenne">
+				<figcaption>Novi Cayenne.<figcaption>
+			</figure>
+			<figure>
+				<img src="news/cayennefront.jpg" alt="Porshe Cayenne" title="Porshe Cayenne">
+				<figcaption>Novi Cayenne.<figcaption>
+			</figure>
+            <figure>
+				<img src="news/cayenne_otvoren.jpg" alt="Porshe Cayenne" title="Porshe Cayenne">
+				<figcaption>Novi Cayenne.<figcaption>
+			</figure>
+			<figure>
+				<img src="news/cayenneback.jpg" alt="Porshe Cayenne" title="Porshe Cayenne">
+				<figcaption>Novi Cayenne.<figcaption>
+			</figure>
+            
+        </div>
+        <hr>
+        <div>
+            <h2>Na <q>paprenom</q> predstavljanju otkriven novi Porsche Cayenne</h2>
+            <p>Sportski automobil i terensko vozilo u jednom, ovakvom opisu odgovara samo jedan, jedini i jedinstveni Porsche Cayenne</p>
+            <p>Snažniji, udobniji, s povećanom sigurnošću, električnim dometom do 90km u svojoj E-hybrid verziji,
+            uz potpuno digitalni kokpit <br>usmjeren na vozača i digitalni zaslon za suvozača, novi se Cayenne
+            pozicionirao kao dream car svakog vozača koji je svestran, pustolovan, koji cijeni dizajn i detalje. </p>
+            <p>Publika je, uz dva najnovija Cayenne E-Hybrid modela mogla vidjeti 3 muzejska automobila koja su stigla direktno iz Porsche muzeja u Njemačkoj.
+            <br>Crveni Cayenne GTS E1 čija su s kultna tri slova GTS prvi put proslavila 1964. pobjedom Porsche 904 Carrera GTS u legendarnoj utrci na Siciliji - Targa Florio.</p>
+            <p>Cayenne kao najprodavanije Porsche vozilo ovom je prigodom predstavio i glavnu poruku kojom se brand vodi pri kreiranju svakog budućeg „paprenjaka“.</p>
+            <p>Kao automobil koji je pogodan za sve terenske uvjete, postao je nova dimenzija SUV vozila i ikona stila u SUV segmentu. </p>
+            <p>Porsche je najavio još sjajnih generacija Porsche vozila koji će zasigurno nastaviti ostvarivati snove svih zaljubljenika u vožnju...kao što to čini posljednjih 75 godina.</p>
+            <p id="nazad"><a href="novosti.html">POVRATAK</a></p>
+            <p style="margin-bottom: 6%;"><a href="https://dealer.porsche.com/hr/zagreb/hr-HR/Novosti-i-dogadanja/Aktualne-novosti/Na-paprenom-predstavljanju-otkriven-novi-Porsche-Cayenne">Izvor</a></p>
+            
+        </div>
+
+
+
+        
+
+
+
+		
+	</main>
+
+    <footer>
+        <p style="font-size: 20px;">2023 Kresimir Vrdoljak.
+            <a href="https://github.com/vrc253/porshe_project/tree/main">
+                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" height="20px"
+                    alt="Github">
+            </a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
+
