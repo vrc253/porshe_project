@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Krešimir Vrdoljak">
+    <title>Projekt K.Vrdoljak</title>
+    <link rel="icon" type="image/x-icon" href="images/porsche-removebg-preview.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        #novosti1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+
+        #novosti1 figure {
+            box-sizing: border-box;
+            width: calc(33.33% - 20px); /* Set the width of each figure with margin */
+            margin: 10px; /* Adjust margin as needed */
+            
+        }
+
+        @media screen and (max-width: 900px) {
+        #novosti1 {
+            flex-direction: column; /* Change to a single column layout */
+        }
+
+        #novosti1 figure {
+            width: 100%; /* Occupy full width in a single column layout */
+            margin: 10px 0; /* Adjust margin as needed */
+            
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero-image" role="banner"></div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="novosti.html">Novosti</a></li>
+                    <li><a href="form.html">Kontakt</a></li>
+                    <li><a href="">O nama</a></li>
+                    <li><a href="galery.html">Galerija</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <h1>Galerija</h1>
+        <div id="novosti1">
+            <figure>
+                <a target="_blank" href="https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9Z7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO9%25R60KkCSWTQeGgfNU1F0DyotLT89vdcikI42TBCr3RvZou3MESv6w9LY4WevcP3aROsnw1V69EequLaLRU6a3GVAHQJFml2VWXbHcL9%25O2dRNjscEkexJdLAzzptG%25A7KMF1WhQ5p2YgfNM1b0Dy1fQ9%254WMfIj3BbDrx50w8uzNcgk67ymCCWh9HPoagc3Kv1fUOAsU3cgxti3LMK7GVSbg%25b1HzUWfoDrs1iJgEl18eS6N">
+                <img src="gallery/panamera_front.jpg" alt="Porshe Panamera" title="Porshe Panamera"></a>
+                <figcaption>Porshe Panamera<figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9A7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO9%25R60KkCSWTQeGgfNU1F0DyotLT89vdcikI42TBCr3RvZou3MESv6w9LY4WevcP3aROsnw1V69EequLaLRU6a3GVAHQJFml2VWXbHcL9%25O2dRNjscEkexJdLAzzptG%25A7KMF1WhQ5p2YgfNM1b0Dy1fQ9%254WMfIj3BbDrx50w8uzNcgk67ymCCWh9HPoagc3Kv1fUOAsU3cgxti3LMK7GVSbg%25b1HzUWfoDrs1iJgEl18eS6N">
+                <img src="gallery/panamera_back.jpg" alt="Porshe Panamera" title="Porshe Panamera"></a>
+                <figcaption>Porshe Panamera<figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9Z7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO9%25M60KknhQ5rsHgfNCdL0Dyoc2T89o4FikIvRtBCr4MnZou39MSv6yAfY4WolyP3a6dMnw1du4qTu2u3Ui6xswAB5V8elZNcpRHocQdfcmNZ09IfmI8ixJLKZhKHMTcAomv1fHPDZ%25tH4OLUu">
+                <img src="gallery/macan_front.jpg" alt="Porshe Macan" title="Porshe Macan"></a>
+                <figcaption>Porshe Macan<figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9A7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO9%25M60KknhQ5rsHgfNCdL0Dyoc2T89o4FikIvRtBCr4MnZou39MSv6yAfY4WolyP3a6dMnw1du4qTu2u3Ui6xswAB5V8elZNcpRHocQdfcmNZ09IfmI8ixJLKZhKHMTcAomv1fHPDZ%25tH4OLUu">
+                <img src="gallery/macan_back.jpg" alt="Porshe Macan" title="Porshe Macan"></a>
+                <figcaption>Porshe Macan<figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9Z7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO9%25I60KkbUWTQCO3aifowu1BDYczqZ8PK2USknfJAYC6O5lPoS5mHnvbZY4W8V2P3a2lv10dwQ4qTtlO3U8lJHpletT75NleNVgXbPsTxsUchl18LSSvgRl0q5ORY%25c38">
+                <img src="gallery/cayenne_front.jpg" alt="Porshe Cayenne" title="Porshe Cayenne"></a>
+                <figcaption>Porshe Cayenne<figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9A7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO9%25I60KkbUWTQCO3aifowu1BDYczqZ8PK2USknfJAYC6O5lPoS5mHnvbZY4W8V2P3a2lv10dwQ4qTtlO3U8lJHpletT75NleNVgXbPsTxsUchl18LSSvgRl0q5ORY%25c38">
+                <img src="gallery/cayenne_back.jpg" alt="Porshe Cayenne" title="Porshe Cayenne"></a>
+                <figcaption>Porshe Cayenne<figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9Z7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO3jZ60KBShQ58eYgfNksH0DyI6kT89rnCikID33BCr94eZouneFSv6lUCWK1mqb1vH7%25cdhG4C4qDAseAhBm0zM6YQ9bW0O7PUWf3BrM">
+                <img src="gallery/718_cayman_front.jpg" alt="Porshe 718 Cayman" title="Porshe 718 Cayman"></a>
+                <figcaption>Porshe 718 Cayman<figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9A7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO3jZ60KBShQ58eYgfNksH0DyI6kT89rnCikID33BCr94eZouneFSv6lUCWK1mqb1vH7%25cdhG4C4qDAseAhBm0zM6YQ9bW0O7PUWf3BrM">
+                <img src="gallery/718_cayman_back.jpg" alt="Porshe 718 Cayman" title="Porshe 718 Cayman"></a>
+                <figcaption>Porshe 718 Cayman<figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9Z7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO8mv60KBiMWTQZEbaifSs%251BDYsHqZ8esikIL3Drxw1N8uz5lsk67yybCWh24poaQqbUOq42hjdtpF2OOLRZmhXmalxq6QmYikz3q7WdV3BGloQ">
+                <img src="gallery/911_front.jpg" alt="Porshe 911" title="Porshe 911"></a>
+                <figcaption>Porshe 911<figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9A7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO8mv60KBiMWTQZEbaifSs%251BDYsHqZ8esikIL3Drxw1N8uz5lsk67yybCWh24poaQqbUOq42hjdtpF2OOLRZmhXmalxq6QmYikz3q7WdV3BGloQ">
+                <img src="gallery/911_back.jpg" alt="Porshe 911" title="Porshe 911"></a>
+                <figcaption>Novi Cayenne.<figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9Z7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO9I7KMIHWhQ5rsHgfNC2H0DyCIJT89oedikIvMOBCr4MnZou39MSv6gFQY4WuDyP3acsv10IdQ4qTu2u3UiEglwAB5V8elC2KcQ2V5BgyYw%2598TjsEpB7plt02UCVVP3Tm2iAyJmnxteC">
+                <img src="gallery/taycan_front.jpg" alt="Porshe Taycan" title="Porshe Taycan"></a>
+                <figcaption>Porshe Taycan<figcaption>
+            </figure>
+            <figure>
+                <a target="_blank" href="https://pics.porsche.com/rtt/iris?COSY-EU-100-1713c6eK12UC31P3T5JOCU%25hjdmiTDDmvMXlHWguCuq6Q44RtRHo9ZAaDjYu5P3I7tGW3rNbZJNKXv9A7KcQQ%25yFN5tFAsXrw4r3wo0qnqZr8MCnR4i84tV2YN2OmNyW1QGWgCWKMUuyO9I7KMIHWhQ5rsHgfNC2H0DyCIJT89oedikIvMOBCr4MnZou39MSv6gFQY4WuDyP3acsv10IdQ4qTu2u3UiEglwAB5V8elC2KcQ2V5BgyYw%2598TjsEpB7plt02UCVVP3Tm2iAyJmnxteC">
+                <img src="gallery/taycan_back.jpg" alt="Porshe Taycan" title="Porshe Taycan"></a>
+                <figcaption>Porshe Taycan<figcaption>
+            </figure>
+
+
+        </div><br>
+    </main>
+    
+
+
+    <footer>
+        <p style="font-size: 20px;">2023 Kresimir Vrdoljak.
+            <a href="https://github.com/vrc253/porshe_project/tree/main">
+                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" height="20px"
+                    alt="Github">
+            </a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
+
