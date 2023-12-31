@@ -1,0 +1,353 @@
+
+
+
+/*---------------------------------------------------------------------*/
+/*ureduje sliku u headeru i reponzivnost*/
+.hero-image {
+	background-image: url(images/porshe-banner\(800x450\).jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 300px;
+}
+
+@media only screen and  (min-width: 700px) { 
+    .hero-image {
+        background-image: url("images/porshe-banner\(1400x800\).jpg");
+        height: 330px;
+    }
+}
+@media only screen and  (min-width: 990px) { 
+    .hero-image {
+        background-image: url("images/porshe-banner\(3200\).jpg");
+        height: 300px;
+    }
+}
+/*---------------------------------------------------------------------*/
+
+
+
+/* sirina nav trake postavljena na citavu duzinu stranice*/
+nav{
+	width: 100%;
+}
+
+/*opci izgled nav trake,background boja,padding,itd...*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(30, 31, 31);
+}
+
+/*pozicioniraj linkove u nav traci u lijevo*/
+li {
+	float: left;
+}
+
+/*izgled navigacijske trake*/
+li a {
+	display: block;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration:none;
+
+}
+
+/* mijenja boju gumbova na navigacijskoj traci pri hoveru i font teksta*/
+li a:hover {
+	background-color: rgb(107, 102, 102);
+	text-decoration: #fff;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	font-family: sans-serif;
+}
+
+h1{
+	font-family: 'Whisper', cursive;
+}
+
+#opis,p{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 40px;
+}
+
+p{
+	font-size:28px;
+}
+
+figure {
+	padding: 0.5em;
+	margin: 0 1em 3.5em 1em;
+	float: left;
+	width: 45%;
+}
+
+
+img {
+	width: 100%;
+}
+
+figcaption{
+	font-size: 20px;
+}
+
+/*ureduje figcaption na nacin da stvara tri stupca za tekst,"power" je lijevo,
+"acceleration" je u sredini i "topspeed" je desno*/
+.power,
+.acceleration,
+.topspeed {
+    width: 30%;
+    margin: 0 1%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.power {
+    float: left;
+}
+
+.acceleration {
+    text-align: center;
+}
+
+.topspeed {
+    float: right;
+}
+
+/*nakon 1200px spaja tekst u jedan stupac kako ne bi doslo do preklapanja teksta*/
+@media only screen and (max-width: 1250px) {
+    .power,
+    .acceleration,
+    .topspeed {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+    }
+}
+
+
+/*postavlja sirinu i visinu footera, footer je fiksiran na dnu stranice
+tekst je postavljen u sredinu*/
+footer {
+	display:block;
+	text-align: center;
+	border: 1px groove #000000;
+	background-color: rgb(30, 31, 31);
+	color: #fff;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+
+}
+footer p {
+    margin: 0;
+}
+
+/*Github slika u footeru*/
+footer img {
+	width: 25px;
+}
+
+
+/*------------------------------------------------------------------*/
+/*slike na stranici novosti*/
+.news img {
+	width: 15%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+
+.news h1{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 45px;
+}
+
+/*podnaslovi na stranici novosti*/
+.news h2 {
+	margin: 0.5em 0.7em;
+	font-size: 30px;
+	color: rgb(10, 10, 10);
+	text-decoration: none;
+	font-family: 'Bebas Neue', sans-serif;
+}
+
+.news p{
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 20px;
+}
+
+
+
+/*------------------------------------------------------------------*/
+
+
+#novosti1 figure {
+    padding: 0.5em;
+	margin-top: 10px;
+    float: left;
+    width: 20%;
+    border: 1px solid black;
+}
+
+#novosti1 figcaption {
+    font-size: 90%;
+    text-align: center;
+}
+
+#novosti1 {
+    clear: both;
+}
+
+#novosti1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 900px) {
+	figure {
+		width: 90%;
+		margin: 1em;
+	}
+	.news img {
+		width: 95%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.5em;
+	}	
+	
+	.news time {
+			margin: 0 0 0 1em;
+	}
+
+    #novosti1 figure {
+        padding: 0.5em;
+        margin-top: 10px;
+        float: left;
+        width: 90%;
+        border: 1px solid black;
+    }
+
+    #novosti1 figcaption {
+        font-size: 90%;
+        text-align: center;
+    }
+}
+
+hr {
+	margin-top: 0%;
+	padding: 0;
+}
+
+
+/*forma pomaknuta 10px desno*/
+form{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 350px;
+}
+
+
+
+/*maksimalna velicina forme, resize: none uklanja mogucnost upravljanja velicinom okvira za unos teksta*/
+form textarea{
+	resize: none;
+	min-width: 338px;
+	min-height: 100px;
+}
+
+iframe{
+	width: 100%;
+}
+
+h1{
+	font-family: sans-serif;
+}
+
+/*-------------------------------------------------------------------*/
+/*ovaj dio koda ureduje gumbe u formi (submit,reset)*/
+
+/*mijenja boju gumbova,sirinu,visinu...*/
+input[type=submit], input[type=reset] {
+	background-color: rgb(30, 31, 31);
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 200px;
+	text-align: center;
+	margin-left: 15px;
+
+}
+
+/*mijenja izgled gumba "Posalji" prilikom hovera*/
+input[type=submit]:hover {
+	background-color: rgb(107, 102, 102);
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	font-family: sans-serif;
+	
+
+}
+
+/*mijenja izgled gumba "Ponisti" prilikom hovera*/
+input[type=reset]:hover {
+	background-color: rgb(107, 102, 102);
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	font-family: sans-serif;
+}
+
+/*omogucuje gumbima da budu u jednom redu, jedan pored drugog*/
+.button {
+	display: flex;
+}
+
+/*-------------------------------------------------------------------*/
+
+
+video.centriraj {
+	display: block;	
+	margin-left: auto;	
+	margin-right: auto;	
+}
+
+
+
+img.slika{
+	width: 70%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.block-paragraph {
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+/* Adjust width for iPhone 14 and similar devices */
+@media only screen and (max-width: 1025px) {
+    .block-paragraph,img.slika,video.centriraj {
+        width: 95%;
+    }
+
+}
+
+/* Additional styles for desktop */
+@media only screen and (min-width: 1400px) {
+    .block-paragraph,img.slika,video.centriraj {
+        width: 50%;
+    }
+}
+
+
