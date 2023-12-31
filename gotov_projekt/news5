@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Krešimir Vrdoljak">
+    <title>Projekt K.Vrdoljak</title>
+    <link rel="icon" type="image/x-icon" href="images/porsche-removebg-preview.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    
+        .hero-image-news5 {
+            background-image: url(news/news5.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            height: 300px;
+        }
+
+
+
+        h1{
+            font-family: 'Bebas Neue', sans-serif;
+	        font-size: 45px;
+        }
+
+        h2{
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        p{
+            font-family: ' Courier';
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #nazad{
+            margin-bottom: 2%;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero-image-news5" role="banner"></div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="novosti.html">Novosti</a></li>
+                    <li><a href="form.html">Kontakt</a></li>
+                    <li><a href="about-us.html">O nama</a></li>
+                    <li><a href="galery.html">Galerija</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>NOVOSTI</h1>
+        <div id="novosti1">
+			<figure>
+				<img src="news/gt4_front.jpg" alt="GT4 e-Performance." title="GT4 e-Performance.">
+				<figcaption>GT4 e-Performance.<figcaption>
+			</figure>
+			<figure>
+				<img src="news/gt4_back.jpg" alt="GT4 e-Performance." title="GT4 e-Performance.">
+				<figcaption>GT4 e-Performance.<figcaption>
+			</figure>
+            <figure>
+				<img src="news/gt4rs_topdown.jpg" alt="GT4 e-Performance." title="GT4 e-Performance.">
+				<figcaption>GT4 e-Performance.<figcaption>
+			</figure>
+			<figure>
+				<img src="news/gt4_spoiler.jpg" alt="GT4 e-Performance." title="GT4 e-Performance.">
+				<figcaption>GT4 e-Performance.<figcaption>
+			</figure>
+        </div>
+        <hr>
+        <div>
+            <h2>GT4 e-Performance</h2>
+            <p>Potpuno električni Porshe nudi novi način uzbuđenja obožavateljima diljem svijeta.</p>
+            <p>S promjenjivom snagom i pogonom na sve kotače, GT4 e-Performance dizajniran je za široku paletu trkaćih formata.</p>
+            <p>Sprinterske utrke na kružnim stazama, usponi na planinskim cestama, drift utrke na snijegu:<br>
+             prototip Porsche GT4 e-Performance napravljen je za korištenje u različitim događajima. </p>
+             <br>
+             <b><p style="font-family: Courier;">Porijeklo  </p></b>
+            <p>Testno vozilo za potpuno električnu budućnost korisničkih utrka: ova jurilica s pogonom na sve kotače izgrađena je oko šasije dobro poznatog modela 718 Cayman GT4 Clubsport. </p>
+            <br>
+             <b><p style="font-family: Courier;">Performanse  </p></b>
+             <p>Pogon na sva četiri kotača susreće vrhunsku električnu izvedbu: u kvalifikacijskom načinu, električni pogonski sklop proizvodi maksimalnu snagu veću od 735 kW (1000 KS).<br>
+                U simuliranim utrkama, postojanih 450 kW (612 PS) dostupno je do 30 minuta, što je dovoljno za sprintersku utrku u Porscheovim kupovima jednog proizvođača. <br>
+                Zahvaljujući 900-voltnoj tehnologiji, stanje napunjenosti (SoC) baterije dok se puni prelazi s 5 posto na 80 posto u otprilike 15 minuta.</p>
+            <br>
+            <b><p style="font-family: Courier;">Tehnologija  </p></b>
+            <p>Sustav izravnog hlađenja ulja ugrađen u e-motore i bateriju, koji je razvio Porsche, sprječava toplinski inducirano smanjenje snage električnog pogonskog sustava.<br>
+                To znači da izlazna snaga u trkaćem načinu rada ostaje konstantna pola sata. Inteligentna tehnologija također stvara električnu energiju<br>
+                 u trkaćem načinu rada i dovodi je u bateriju (rekuperacija), primjerice tijekom kočenja. </p>
+            <br>
+            <b><p style="font-family: Courier;">Dizajn  </p></b>  
+            <p>Forma slijedi funkciju: sa stručnjacima na području aerodinamike i termodinamike, kao i stručnjacima za visoki napon i karoseriju,<br>
+                 razvojni tim stvorio je arhitekturu za iskorištavanje punog potencijala baterijskih ćelija.<br>
+                 Trkaći automobil je 14 centimetara širi od 718 Cayman GT4 Clubsport. Oko 6000 dijelova dizajnirano je od nule.</p>
+            <br>
+            <b><p style="font-family: Courier;">Održivost  </p></b>  
+            <p>Testno vozilo za održivije utrke: karoserija uključuje kompozitne materijale od prirodnih vlakana,<br>
+                 čija je proizvodnja namijenjena stvaranju nižih emisija od proizvodnje usporedivih sintetičkih materijala.<br>
+                 Rašireni lukovi kotača daju više prostora za šire 18-inčne trkaće gume Michelin. Obnovljivi materijali čine posebno visok udio u gumama.
+            </p>
+            <p id="nazad"><a href="novosti.html">POVRATAK</a></p>
+            <p style="margin-bottom: 6%;"><a target="_blank" href="https://motorsports.porsche.com/international/en/category/cars/gt4eperformance">Izvor</a></p>
+        </div>
+
+
+
+
+		
+	</main>
+
+    <footer>
+        <p style="font-size: 20px;">2023 Kresimir Vrdoljak.
+            <a href="https://github.com/vrc253/porshe_project/tree/main/gotov_projekt">
+                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" height="20px"
+                    alt="Github">
+            </a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
+
