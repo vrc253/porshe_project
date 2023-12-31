@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Krešimir Vrdoljak">
+    <title>Projekt K.Vrdoljak</title>
+    <link rel="icon" type="image/x-icon" href="images/porsche-removebg-preview.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        h1,h2{
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+            font-family: sans-serif;font-size: 20px;
+            text-indent: 40px;
+            word-spacing: 5px;
+        }
+
+
+
+
+
+
+
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="hero-image" role="banner"></div>
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="novosti.html">Novosti</a></li>
+                    <li><a href="form.html">Kontakt</a></li>
+                    <li><a href="about-us.html">O nama</a></li>
+                    <li><a href="galery.html">Galerija</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <main>
+        <h1>O nama</h1>
+        <h2>Povijest Porshe-a</h2>
+        
+        <div>
+            <video class="centriraj" width="70%" controls poster="images/povijest.jpeg" >
+                <source src="video/The full history of Porsche in 60 seconds with Nina Dobrev.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+              <p style="text-align: left;font-size: 15px;">Video curtesy of <a href="https://www.youtube.com/watch?v=UDhE0uBtv7M&ab_channel=Porsche" target="_blank">Porshe.com</a></p></p>
+
+        </div>
+
+        <h2>Profesorova knjiga</h2>
+        <p>Povijest automobilske marke Porsche započela je 1948. s modelom Type 356, ali temelj za tvrtku postavljen je u dizajnerskom uredu profesora Ferdinanda Porschea.</p>  
+        <p>Prva knjiga narudžbi iz 1930. zabilježila je fazu pokretanja legende u nastajanju.</p>
+
+        <img class="slika" src="images/knjiga.jpg" >
+        <br>
+        <p class="block-paragraph">Neupadljivo stoji u sivom sefu u prostoriji s kontroliranom klimom: prva knjiga ureda za dizajn Porsche,
+             pohranjena u vatrootpornoj prostoriji u arhivu muzeja Porsche.
+             U staroj knjizi može se pronaći narudžba broj 1, izdana 21. kolovoza 1930.<br>
+            </p><br>
+             <p class="block-paragraph">Posao je uključivao proizvodnju pojedinačnih komponenti za "Hesselmannov motor",
+                križanac između dizelskog i plinskog motora - znak inovativnog duha tvrtke od njezina početak.
+               Nalog broj 7 imao je sasvim drugu dimenziju. “Projekt malih automobila”, stoji u opisu u glavnoj knjizi.
+            </p><br>
+             <p class="block-paragraph">
+                Tvrtka Wanderer planirala je motorizirati mase i trebao joj je koncept s kojim bi mogla ekonomično
+                i jeftino razviti ono što se tada smatralo luksuznim predmetom u Volks-Wagen — automobil za ljude.
+                Pametna ideja, kao što je povijest pokazala. Knjiga narudžbi pruža prosvjetljujući pogled na to kako su Ferdinand Porsche
+                 i njegov mali tim od samo devetnaest zaposlenika utjelovili viziju dizajnerske kreativnosti.
+             </p>
+            
+            <br>
+            <p class="block-paragraph">Prva knjiga narudžbi na impresivan način ilustrira kako je ured Porschea postao žarište inovacija za njemačku automobilsku industriju.</p>
+        <br>
+        <h2>Potpis sina</h2>
+        <img class="slika" src="images/potpis.jpg">
+        <br>
+        <p class="block-paragraph">Za povjesničare tvrtke, prvi "sketchbook" i sljedeća četiri najvažniji su izvori koji rasvjetljavaju ranu povijest tvrtke.
+            Oni dokumentiraju godine od 1930. do 1945. U knjigama je oko 300 projekata.</p><br>
+        <p class="block-paragraph">Potpis "Porsche" prvi put se pojavljuje 30. siječnja 1931. Mlađahna ruka zabilježila je "Klipnjača s vijkom"—upis broj 9,
+            napisao šegrt Ferry Porsche, koji će kasnije dizajnerski ured pretvoriti u automobilsku tvrtku Porsche.
+        </p>    
+        
+        <br>
+        <h2>&quot;W &quot; kao Wanderer - prvi veliki projekt</h2>
+        <img class="slika" src="images/wanderer.jpg">
+        <br>
+        <p class="block-paragraph">
+            Dok je prvih pet projekata dovršeno u Austriji, prvi posao sa sjedištem u Stuttgartu bio je narudžba broj 6:
+             "duo-servo bubanj kočnica". I ovo je bio relativno mali posao, posebno u usporedbi s narudžbom broj 7, 
+             projektom malog automobila koji će kasnije ući u povijest automobila kao Wanderer W21/22. 
+             U originalnoj ladici Ferdinanda Porschea adresa se još uvijek može pronaći pod "W."
+        </p>
+        
+        <br>
+
+        <h2>Zündapp automobil: Nacrt</h2>
+        <img class="slika" src="images/nacrt.jpg">
+        <br>
+        <p class="block-paragraph">
+            Godine 1932. Porsche je dobio narudžbu za razvoj malog automobila za proizvođača motocikala Zündapp. 
+            Automobil je trebao pružiti priliku proizvođaču dvokotača koji se bori s problemima. 
+            Međutim, s oživljavanjem sreće na tržištu motocikala, projekt je stavljen na led.
+        </p><br>
+        <p class="block-paragraph">
+            Međutim, rad na tipu 12 nije bio uzaludan. 
+            Po prvi put se očitovala ideja za kasniji Volkswagen (Type 60). 
+            Porscheova vizija počela je poprimati oblik, a 27. travnja 1934. 
+            Erwin Komenda dovršio je prvi crtež za Type 60, kao što pokazuje unos "Volkswagen Project".
+        </p>
+        <br>
+
+        <h2>Projekt moto utrka</h2>   
+        <img class="slika" src="images/moto_utrka.jpg">
+        <p class="block-paragraph">
+            Početkom 1933. dizajnerski ured Porsche dobio je narudžbu od Auto Uniona 
+            za razvoj trkaćeg automobila sa šesnaest cilindara prema pravilima 
+            trkaće formule od 750 kilograma.
+        </p>
+        <br>
+        <p class="block-paragraph">
+            U prosincu 1932., mjesecima prije sklapanja ugovora, 
+            tim Porschea započeo je rad na trkaćem automobilu P tipa 22 sa središnjim motorom. 
+            Legendarni automobil Auto Union Grand Prix postavio je nove standarde.
+        </p>
+        <br>
+
+
+		
+	</main>
+
+    <footer>
+        <p style="font-size: 20px;">2023 Kresimir Vrdoljak.
+            <a href="https://github.com/vrc253/porshe_project/tree/main/gotov_projekt">
+                <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" height="20px"
+                    alt="Github">
+            </a>
+        </p>
+    </footer>
+
+
+</body>
+</html>
+
