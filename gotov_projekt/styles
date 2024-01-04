@@ -335,7 +335,7 @@ img.slika{
     text-align: justify;
 }
 
-/* Adjust width for iPhone 14 and similar devices */
+
 @media only screen and (max-width: 1025px) {
     .block-paragraph,img.slika,video.centriraj {
         width: 95%;
@@ -343,7 +343,7 @@ img.slika{
 
 }
 
-/* Additional styles for desktop */
+
 @media only screen and (min-width: 1400px) {
     .block-paragraph,img.slika,video.centriraj {
         width: 50%;
